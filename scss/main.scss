@@ -15,6 +15,12 @@
     @include flex-center;
   }
 
+  button {
+    background: none;
+    color: white;
+    border: none;
+  }
+
   .episode-cover {
     width: 100%;
     height: auto;
