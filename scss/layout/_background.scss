@@ -13,7 +13,7 @@
 .border-angle {
   height: $border-angle-height;
   position: fixed;
-  z-index: 999;
+  z-index: $z-index-top;
 }
 
 .border-side {

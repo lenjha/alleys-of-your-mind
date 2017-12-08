@@ -21,6 +21,11 @@
     border: none;
   }
 
+  .main-logo {
+    width: 8vw;
+    margin: 21px;
+  }
+
   .episode-cover {
     width: 100%;
     height: auto;
@@ -55,21 +60,23 @@
       width: 30%;
     }
     .column-4:last-child {
-      width: 60%;
-      height: 130px;
+      width: 30%;
+      height: auto;
       margin: 0px !important;
     }
     .grid {
       @include flex-center;
       flex-wrap: wrap;
+      margin-bottom: 10px;
+      height: auto;
     }
   }
   @media #{$mobile}{
     .column-4 {
       width: 70% !important;
       float: none;
-      margin: 20px !important;
-      height: 300px !important;
+      margin-bottom: 87px !important;
+      height: 284px !important;
     }
     .grid {
       @include flex-center;
